@@ -23,10 +23,13 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": ["node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "webfootball"
+    }
+  },
+  "defaultProject": "webfootball",
+  "cli": {
+    "analytics": "f8e2f38a-c278-49cd-b841-1ea0a5dfa893"
+  }
 }
