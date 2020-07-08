@@ -12,6 +12,8 @@ body {
   padding: 13px;
   max-width: 70vw;
   justify-content: center;
+  display:flex;
+  align-items: center;  
 }
 
 #logo-img {
@@ -101,7 +103,6 @@ ul li a:hover {
 /* END NAVBAR */
 
 /* START CAROUSEL */
-
 .carousel-caption {
   position: absolute;
   width: 70%;
@@ -184,7 +185,7 @@ ul li a:hover {
 }
 
 .title-top h3 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -196,7 +197,7 @@ ul li a:hover {
 }
 
 .title-bot h2 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -247,16 +248,13 @@ ul li a:hover {
 
 }
 
-.btn-left-article {
-
-}
-
 .title-article {
   padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 #date-article {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
@@ -267,13 +265,17 @@ ul li a:hover {
 }
 
 #link-article {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
   text-align: justify;
   text-transform: uppercase;
+  color: #000000;
+}
+
+#link-article a:hover {
   color: #00CD97;
 }
 
@@ -288,40 +290,115 @@ ul li a:hover {
   margin: 0px;
 }
 
-.bottom-right-article {
+#title-right-article {
   background: #FFF;
-  padding-top: 10%;
+  padding: 7px 5px 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 .img-right-article img{
   width: 100%;
   height: 180px;
 }
+/*END NEWS */
 
-
-
-
-#img2{
-  padding: auto;
-}
-
-.new{
-  margin-top: 20px;
-  width: 100%;
-  height: 250px;
+/* CARD */
+#player{
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 38px;
 }
 
-.info{
-
-	width: 200px;
-
-	font-size: 10px;
-	float: left;
+#player-number {
+  display: inline;
+  border: 0px solid #FFFF;
+    border-radius: 50%;
+    background: #01D099;
+    /* width: 30px; */
+    padding: 15px 16px;
+    position: relative;
+    left: 38%;
+    top:-14px;
 }
-.info1{
-	 position: relative;
+
+#player-number span {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffff;
 }
+
+.card-body {
+  flex: auto;
+  text-align: center;
+}
+
+h5.card-title {
+  margin-bottom: 5px;
+  /* font-family: 'Roboto'; */
+  
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #081224;
+}
+
+#player-postion {
+  margin-bottom: 5px;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #01D099;
+}
+
+.information-first{
+  margin: 0px;
+  line-height: 40px;
+  color: #081224;
+  font-size: 15px;
+}
+
+.information-second{
+  margin: 0px;
+  line-height: 40px;
+  text-align: right;
+}
+
+.info {
+  border-top: 1px solid #E5E5E5;
+}
+
+.more-info {
+  background: #081224;
+}
+
+.more-info-link {
+  line-height: 40px;
+  display: block;
+  color: #fff;
+}
+
+.more-info-link span {
+  float: right;
+}
+
+.more-info-link:hover {
+  text-decoration: none;
+  color: #01D099;
+}
+
+
+
+
+
+
+/* END CARD */
 div#my-div {
 	font-weight: bold;
 	font-size: 20px;
@@ -348,60 +425,5 @@ div#my-div {
   padding:25px;
   font-size:18px;
 
-}
-
-
-/* sua; */
-.tintuc .item .item-left{
-  padding: 0;
-}
-.tintuc .item .item-left img{
-  width: 100%;
-  height: 100%;
-}
-.tintuc .item .item-right{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-}
-.tintuc .item .item-right .date{
-  color: #00CD97;
-}
-.tintuc .item{
-  margin-bottom: 30px;
-}
-.item2 {
-  padding: 0px;
-  border: 3px solid transparent;
-  background-clip: padding-box;
-  box-model: border-box;
-}
-.col-3{
-  width: 100%;
-  padding: 0;
-}
-#player{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 5%;
-}
-
-
-.header {
-  display:flex;
-  align-items: center;
-}
-
-.icon span{
-  color: aliceblue;
-  padding-right: 5px;
-}
-
- .new1{
-   color: #00CD97;
- }
-.card-body1{
-  background-color: #081224;
 }
 
