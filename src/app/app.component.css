@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-size: 17px;
 }
 
@@ -280,7 +280,7 @@ ul li a:hover {
 }
 
 #para-article {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -393,12 +393,49 @@ h5.card-title {
   color: #01D099;
 }
 
-
-
-
-
-
 /* END CARD */
+
+/* EMAIL */
+.email {
+  text-align: center;
+  background: #FFFF;
+  padding: 97px 0px;
+  color: #000000;
+}
+
+.email h3 {
+  font-size: 27px;
+}
+
+.email span {
+  color: #01D099;
+  font-size: 27px;
+}
+
+.email p {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.send-email input[type=text] {
+  margin-right: 11px;
+  border: 1px solid #E5E5E5;
+  border-radius: 34px;
+  width: 30rem;
+  line-height: 30px;
+  padding: 5px 20px;
+}
+
+.send-email input[type=submit] {
+  color: #FFFF;
+  background: #01D099;
+  border: 0px solid #fff;
+  border-radius: 35px;
+  line-height: 30px;
+  padding: 5px 17px;
+}
+
+/* END EMAIL */
 div#my-div {
 	font-weight: bold;
 	font-size: 20px;
