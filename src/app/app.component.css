@@ -1,28 +1,313 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+/* START NAVBAR */
 .img1{
   background-color: #081224;
 }
 .header {
-  list-style: none outside none;  padding:20px;
-   }
-  li {
-   float: left; margin: 0 10px;
-    }
-    .container-fluid{
-	    padding-right: 0px;
-      padding-left: 0px;
+  list-style: none outside none;  
+  padding: 13px;
+  max-width: 70vw;
+}
+
+#logo-img {
+  padding-right: 10px;
+}
+
+#logo-title {
+  max-height: 40px;
+}
+
+ul {
+  margin-bottom: 0em;
+ 
+  list-style: none;
+}
+
+li {
+  float: left; 
+  margin: 0 10px;
+}
+
+ul li .home1 {
+  font-size: 17px;
+  line-height: 20px;
+  color:#FFF;
+}
+
+ul li a.active {
+  color: #00CD97;
+}
+
+ul li a:hover {
+  text-decoration: none;
+  color: #00CD97
+}
+
+#search-form {
+  border: 1px solid #262F3E;
+  padding: 3px;
+  background: #262F3E;
+  border-radius: 50px;
+  
+}
+
+#search-form input[type=text] {
+  background: #262F3E; 
+  border: 0; 
+  color: #9B9B9B;
+  padding: 0px 0px 0px 10px;
+}
+
+#search-form input[type=submit] {
+  border: 0;
+  background: url('../assets/img/bx_bx-search.png') no-repeat;
+  height: 16px;
+  width: 26px;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.icon .fa {
+  padding: 7px;
+	font-size: 13px;
+	width: 29px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 5px;	
+	border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #1976D2;
+  color: white;
+}
+
+.fa-twitter {
+  background-color: #28BEEE;
+  color: #FFF
+}
+
+.fa-pinterest {
+  background-color: #FA2D14;
+  color: #FFF;
+}
+/* END NAVBAR */
+
+/* START CAROUSEL */
+
+.carousel-caption {
+  position: absolute;
+  width: 70%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+#carouselExampleIndicators{
+  position: relative;
+}
+
+#carouselExampleIndicators li {
+  height: 9px;
+  width: 40px;
+  border-radius: 1px;
+}
+
+#carouselExampleIndicators li.active {
+  background-color: #00CD97;
+}
+
+.carousel1{
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.carousel1 h5 {
+  color: #00CD97;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 35px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.carousel1 h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+.carousel1 p {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+}
 
 
-  }
-  #img2{
-    padding: auto;
-  }
-  .new{
-    margin-top: 20px;
-    width: 100%;
-    height: 250px;
-    display: flex;
-  }
- */
+/* END CAROUSEL */
+
+/* NEWS */
+#left-title {
+  float: left;
+  width: 50%;
+}
+
+#right-title {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.news {
+  margin-top: 60px;
+}
+
+.title-top h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #00CD97;
+  margin: 0px 0px 4px;
+}
+
+.title-bot h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#right-title a.chevron {
+  border-radius: 3px;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+#right-title a.chevron i {
+  padding: 21px 7px;
+  color: #fff;
+}
+
+#right-title .previous {
+  background-color: rgba(190, 190, 190, 0.5);
+}
+
+#right-title .next {
+  background-color: #00CD97;
+}
+
+.underline {
+  border-bottom: 4px solid #01D099;
+}
+
+.article {
+  margin-top: 45px;
+}
+
+.left-article {
+  background: #FFFF;
+}
+
+#first-article {
+  margin-bottom: 30px;
+}
+
+.left-article-img {
+  background: url('../assets/img/skysports-javier-reds_4150844 1 (1).png') no-repeat;
+  background-size: contain;
+
+}
+
+.btn-left-article {
+
+}
+
+.title-article {
+  padding: 10px;
+}
+
+#date-article {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 18px;
+  align-items: center;
+  margin: 0px;
+  color: #00CD97;
+}
+
+#link-article {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #00CD97;
+}
+
+#para-article {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: justify;
+  color: #4F4F4F;
+  margin: 0px;
+}
+
+.bottom-right-article {
+  background: #FFF;
+}
+
+.img-right-article img{
+  width: 100%;
+}
+
+
+
+
+#img2{
+  padding: auto;
+}
+
+.new{
+  margin-top: 20px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
 
 .info{
 
@@ -62,20 +347,6 @@ div#my-div {
 
 }
 
-#carouselExampleIndicators{
-  position: relative;
-}
-
-.carousel1{
-  text-align: center;
-  color: white;
-  position: absolute;
-  width: 100%;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-}
 
 /* sua; */
 .tintuc .item .item-left{
@@ -123,30 +394,10 @@ div#my-div {
   color: aliceblue;
   padding-right: 5px;
 }
- .btn-click input{
-    background-color: #262F3E !important;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border: none;
- }
-
- .btn-click button{
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  background-color: #262F3E !important;
-  border: none;
-  border-left: 1px solid red;
- }
+ 
  .new1{
    color: #00CD97;
  }
-ul li .home1 {
-
-  color:#00CD97;
-}
-ul{
-  list-style: none;
-}
 .card-body1{
   background-color: #081224;
 }
