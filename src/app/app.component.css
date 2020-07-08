@@ -429,7 +429,7 @@ h5.card-title {
 .send-email input[type=submit] {
   color: #FFFF;
   background: #01D099;
-  border: 0px solid #fff;
+  border: 1px solid #E5E5E5;
   border-radius: 35px;
   line-height: 30px;
   padding: 5px 17px;
